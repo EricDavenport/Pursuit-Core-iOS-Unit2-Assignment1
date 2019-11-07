@@ -14,10 +14,14 @@ class ViewController: UIViewController {
     
     @IBOutlet var gameButtons: [GameButton]!
     
-    
-    
     @IBOutlet weak var newGameButton: UIButton!
     @IBOutlet weak var winningLabel: UILabel!
+    
+//    var player: Int = 1
+    var gameStart = TicTacToeBrain()
+    
+    var gameRunning = true
+    var player = 1
     
     override func viewDidLoad() {
     super.viewDidLoad()
@@ -28,27 +32,28 @@ class ViewController: UIViewController {
 
     @IBAction func gameButtonPressed(_ gameButton: GameButton) {
         
-        var player: Int = 1
-        
         print("ROW: \(gameButton.row) COL: \(gameButton.col)")
-        
-        if player == 1 {
-            gameButton.setBackgroundImage(UIImage(named: "xmark"), for: UIControl.State.normal)
-            
-            print("\(player)")
-        }
-        player += 1
-        
-        if player == 2 {
-            gameButton.setBackgroundImage(UIImage(named: "circle"), for: UIControl.State.normal)
-            
-            
-            print("\(player)")
-        }
-        player -= 1
+       // gameStart.playAction(gameButton)
+        let currentSpot = gameButton.tag
        
+        if  player == 1 {
+                   gameButton.setBackgroundImage(UIImage(named: "xmark"), for: UIControl.State.normal)
+                   print("\(player)")
+            gameStart.emptyAr[currentSpot] = player
+                   player = 2
+               } else {
+                   gameButton.setBackgroundImage(UIImage(named: "circle"), for: UIControl.State.normal)
+            gameStart.emptyAr[currentSpot] = player
+                   player = 1
+                   print("\(player)")
+                   
+               }
+        print(gameStart.emptyAr)
+        
         
     }
     
-}
+    
+//
 
+}

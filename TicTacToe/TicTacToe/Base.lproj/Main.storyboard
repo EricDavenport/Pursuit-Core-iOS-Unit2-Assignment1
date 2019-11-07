@@ -23,7 +23,7 @@
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XXU-W7-p7w" customClass="GameButton" customModule="TicTacToe" customModuleProvider="target">
                                 <rect key="frame" x="20" y="151" width="117" height="104"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button" backgroundImage="xmark" catalog="system"/>
+                                <state key="normal" title="Button"/>
                                 <userDefinedRuntimeAttributes>
                                     <userDefinedRuntimeAttribute type="number" keyPath="row">
                                         <integer key="value" value="0"/>
@@ -36,7 +36,7 @@
                                     <action selector="gameButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="pUO-tC-76M"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sPR-E8-6M1" customClass="GameButton" customModule="TicTacToe" customModuleProvider="target">
+                            <button opaque="NO" tag="3" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sPR-E8-6M1" customClass="GameButton" customModule="TicTacToe" customModuleProvider="target">
                                 <rect key="frame" x="20" y="265" width="125" height="123"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
@@ -52,7 +52,7 @@
                                     <action selector="gameButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="4eh-ph-7pz"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MEN-OK-mWK" customClass="GameButton" customModule="TicTacToe" customModuleProvider="target">
+                            <button opaque="NO" tag="6" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MEN-OK-mWK" customClass="GameButton" customModule="TicTacToe" customModuleProvider="target">
                                 <rect key="frame" x="20" y="387" width="125" height="123"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
@@ -68,7 +68,7 @@
                                     <action selector="gameButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="MVs-yn-0iv"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6oc-Qe-M8S" customClass="GameButton" customModule="TicTacToe" customModuleProvider="target">
+                            <button opaque="NO" tag="7" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6oc-Qe-M8S" customClass="GameButton" customModule="TicTacToe" customModuleProvider="target">
                                 <rect key="frame" x="145" y="387" width="125" height="123"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
@@ -84,7 +84,7 @@
                                     <action selector="gameButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="m9X-fh-jIj"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="k8b-F1-3T3" customClass="GameButton" customModule="TicTacToe" customModuleProvider="target">
+                            <button opaque="NO" tag="8" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="k8b-F1-3T3" customClass="GameButton" customModule="TicTacToe" customModuleProvider="target">
                                 <rect key="frame" x="269" y="387" width="125" height="123"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
@@ -100,7 +100,7 @@
                                     <action selector="gameButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="in9-Xf-E2y"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UX7-0O-njc" customClass="GameButton" customModule="TicTacToe" customModuleProvider="target">
+                            <button opaque="NO" tag="5" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UX7-0O-njc" customClass="GameButton" customModule="TicTacToe" customModuleProvider="target">
                                 <rect key="frame" x="269" y="265" width="125" height="123"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
@@ -116,7 +116,7 @@
                                     <action selector="gameButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="cXA-CE-wJP"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nF4-xf-fIq" customClass="GameButton" customModule="TicTacToe" customModuleProvider="target">
+                            <button opaque="NO" tag="4" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nF4-xf-fIq" customClass="GameButton" customModule="TicTacToe" customModuleProvider="target">
                                 <rect key="frame" x="145" y="265" width="125" height="123"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
@@ -132,10 +132,10 @@
                                     <action selector="gameButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="gVW-uK-yK0"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Gk7-eL-fnD" customClass="GameButton" customModule="TicTacToe" customModuleProvider="target">
+                            <button opaque="NO" tag="2" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Gk7-eL-fnD" customClass="GameButton" customModule="TicTacToe" customModuleProvider="target">
                                 <rect key="frame" x="269" y="140" width="125" height="123"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button"/>
+                                <state key="normal" title="button"/>
                                 <userDefinedRuntimeAttributes>
                                     <userDefinedRuntimeAttribute type="number" keyPath="col">
                                         <integer key="value" value="2"/>
@@ -146,6 +146,22 @@
                                 </userDefinedRuntimeAttributes>
                                 <connections>
                                     <action selector="gameButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="WoR-ck-cob"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="1" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Zag-uX-421" customClass="GameButton" customModule="TicTacToe" customModuleProvider="target">
+                                <rect key="frame" x="149" y="149" width="117" height="104"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="button"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="col">
+                                        <integer key="value" value="1"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="row">
+                                        <integer key="value" value="0"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="gameButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="D2t-VS-PCj"/>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Tic-Tac-Toe" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Gk3-HL-h0b">
@@ -166,22 +182,6 @@
                                 <rect key="frame" x="20" y="667" width="374" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="NEW GAME"/>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Zag-uX-421" customClass="GameButton" customModule="TicTacToe" customModuleProvider="target">
-                                <rect key="frame" x="149" y="149" width="117" height="104"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button" backgroundImage="circle" catalog="system"/>
-                                <userDefinedRuntimeAttributes>
-                                    <userDefinedRuntimeAttribute type="number" keyPath="col">
-                                        <integer key="value" value="1"/>
-                                    </userDefinedRuntimeAttribute>
-                                    <userDefinedRuntimeAttribute type="number" keyPath="row">
-                                        <integer key="value" value="0"/>
-                                    </userDefinedRuntimeAttribute>
-                                </userDefinedRuntimeAttributes>
-                                <connections>
-                                    <action selector="gameButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="D2t-VS-PCj"/>
-                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -208,7 +208,5 @@
     </scenes>
     <resources>
         <image name="Grid-1" width="1078" height="1068"/>
-        <image name="circle" catalog="system" width="64" height="60"/>
-        <image name="xmark" catalog="system" width="64" height="56"/>
     </resources>
 </document>
