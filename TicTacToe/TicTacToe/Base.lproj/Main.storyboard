@@ -182,13 +182,31 @@
                                 <rect key="frame" x="20" y="667" width="374" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="NEW GAME"/>
+                                <connections>
+                                    <action selector="newGameButtom:" destination="BYZ-38-t0r" eventType="touchUpInside" id="3xv-CJ-0eu"/>
+                                </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="K12-vD-EVH">
+                                <rect key="frame" x="310" y="720" width="42" height="61"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tJv-DN-Pkw">
+                                <rect key="frame" x="57" y="723" width="42" height="58"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <connections>
-                        <outlet property="newGameButton" destination="EE2-Ki-cXl" id="9jO-9a-Ggm"/>
+                        <outlet property="playerOneWinLabel" destination="tJv-DN-Pkw" id="2cp-nD-NeG"/>
+                        <outlet property="playerTwoWinLabel" destination="K12-vD-EVH" id="lzn-6S-JZk"/>
                         <outlet property="winningLabel" destination="b9O-rt-NdE" id="6Se-TB-Odm"/>
                         <outletCollection property="gameButtons" destination="UX7-0O-njc" collectionClass="NSMutableArray" id="5r5-H2-HM0"/>
                         <outletCollection property="gameButtons" destination="k8b-F1-3T3" collectionClass="NSMutableArray" id="H44-I1-tjZ"/>
