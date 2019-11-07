@@ -22,24 +22,17 @@ class TicTacToeBrain {
     
     var player = 1
     
-    func playAction(_ gameButton: GameButton) {
-        
-//        let currentSpot = gameButton.tag
-        
-
-//        if  player == 1 {
-//            gameButton.setBackgroundImage(UIImage(named: "xmark"), for: UIControl.State.normal)
-//            print("\(player)")
-//            emptyAr[currentSpot] = player
-//            player = 2
-//        } else {
-//            gameButton.setBackgroundImage(UIImage(named: "circle"), for: UIControl.State.normal)
-//            emptyAr[currentSpot] = player
-//            player = 1
-//            print("\(player)")
-//            
+    func winnerCheck(_ playerArr: [Int]) {
+//        for eachArr in winningChances {
+//
+//            if emptyAr[eachArr[0]] == emptyAr[eachArr[1]] && emptyAr[eachArr[1]] == emptyAr[eachArr[2]]{
+//
+//
 //        }
-   }
+//    }
+//
+//   }
+}
 }
 
     
