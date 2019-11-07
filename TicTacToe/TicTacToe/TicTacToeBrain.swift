@@ -14,7 +14,7 @@ import UIKit
 
 class TicTacToeBrain {
     
-    //var player = 1
+    
     
     var emptyAr = [0, 0, 0, 0, 0, 0, 0, 0, 0]
     
@@ -22,17 +22,6 @@ class TicTacToeBrain {
     
     var player = 1
     
-    func winnerCheck(_ playerArr: [Int]) {
-//        for eachArr in winningChances {
-//
-//            if emptyAr[eachArr[0]] == emptyAr[eachArr[1]] && emptyAr[eachArr[1]] == emptyAr[eachArr[2]]{
-//
-//
-//        }
-//    }
-//
-//   }
-}
 }
 
     

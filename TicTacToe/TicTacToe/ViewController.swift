@@ -72,19 +72,40 @@ class ViewController: UIViewController {
                 playerOneWins += 1
                     winningLabel.text = "Player one wins"
                 playerOneWinLabel.text = "\(playerOneWins)"
+                for eachButton in gameButtons {
+                    eachButton.isEnabled = false
+                }
+                
                 } else if gameStart.emptyAr[each[0]] == 2 && gameStart.emptyAr[each[1]] == 2 && gameStart.emptyAr[each[2]] == 2 {
                 playerTwoWins += 1
                     winningLabel.text = "Player two wins"
                 playerTwoWinLabel.text = "\(playerTwoWins)"
+                for eachButton in gameButtons {
+                    eachButton.isEnabled = false
+                }
                 }
     }
 }
     //MARK: NEW GAME START
     
     @IBAction func newGameButtom(_ sender: UIButton) {
+        //for each in gameStart.emptyAr {
+            gameStart.emptyAr = [0,0,0,0,0,0,0,0,0]
+        //}
+        print(gameStart.emptyAr)
         for eachButton in gameButtons {
             eachButton.setBackgroundImage(nil, for: UIControl.State.normal)
             eachButton.isEnabled = true
         }
     }
+    
+    @IBAction func resetButton(_ sender: UIButton) {
+        playerTwoWins = 0
+        playerOneWins = 0
+        playerOneWinLabel.text = "\(playerOneWins)"
+        playerTwoWinLabel.text = "\(playerTwoWins)"
+    }
+    
+    
+    
 }
